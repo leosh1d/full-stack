@@ -1,6 +1,0 @@
-mutation addUser($username: String, $password: String) {
-  addUser(input: { username: $username, password: $password }) {
-    username
-    password
-  }
-}
