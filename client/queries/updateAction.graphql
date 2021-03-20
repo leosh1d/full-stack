@@ -1,0 +1,9 @@
+mutation UPDATE_ACTION($section: String!, $data: [String]!) {
+  updateAction(section: $section, data: $data) {
+    username
+    password
+    todo
+    doing
+    done
+  }
+}

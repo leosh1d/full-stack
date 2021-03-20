@@ -1,0 +1,10 @@
+mutation UPDATE_THEME($data: String!) {
+  updateTheme(data: $data) {
+    username
+    password
+    todo
+    doing
+    done
+    theme
+  }
+}

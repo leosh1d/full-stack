@@ -1,0 +1,13 @@
+mutation SIGNUP_MUTATION($username: String!, $password: String!) {
+  signup(username: $username, password: $password) {
+    user {
+      _id
+      username
+      password
+      todo
+      doing
+      done
+      theme
+    }
+  }
+}

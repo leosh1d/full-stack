@@ -1,0 +1,10 @@
+query CURRENT_USER_QUERY {
+  currentUser {
+    username
+    password
+    todo
+    doing
+    done
+    theme
+  }
+}

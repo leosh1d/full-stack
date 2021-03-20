@@ -1,0 +1,9 @@
+mutation REMOVE_ACTION($section: String!, $data: String!) {
+  removeAction(section: $section, data: $data) {
+    username
+    password
+    todo
+    doing
+    done
+  }
+}

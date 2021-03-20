@@ -1,0 +1,10 @@
+mutation ADD_ACTION($section: String!, $data: String!) {
+  addAction(section: $section, data: $data) {
+    _id
+    username
+    password
+    todo
+    doing
+    done
+  }
+}
