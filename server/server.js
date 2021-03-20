@@ -43,7 +43,7 @@ let login1, login2;
 const app = express();
 
 const corsOptions = {
-  origin: "https://leosh1d.github.io/full-stack/",
+  origin: "https://leosh1d.github.io/full-stack",
   credentials: true,
 };
 
