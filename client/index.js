@@ -8,7 +8,7 @@ import "./theme1.sass";
 import App from "./components/App.jsx";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/graphql",
+  uri: "https://leosh1d.herokuapp.com/graphql",
   credentials: "include",
 });
 
