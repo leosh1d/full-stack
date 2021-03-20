@@ -315,6 +315,6 @@ const port = process.env.PORT || 5000;
 server.applyMiddleware({ app, cors: false });
 app.listen(port, () => {
   console.log(
-    "🚀 server started, graphql playground: http://localhost:4000/graphql"
+    "🚀 server started" + port
   );
 });
