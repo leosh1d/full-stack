@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "predeploy": "webpack",
+    "deploy": "gh-pages -d"
   },
   "author": "leosh1d",
   "license": "ISC",
